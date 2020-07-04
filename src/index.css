@@ -1,0 +1,46 @@
+
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+}h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: 900;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  list-style-type: none;
+}
+.search{
+  height: 12px;
+}
+.nav>ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav>ul>li{
+  margin: 1rem;
+}
+.nav>ul>li>.links{
+text-decoration: none;
+padding: 0.5rem 1rem;
+background-color: black;
+color: blanchedalmond;
+font-size: 1.1rem;
+border-radius: 0.3rem;
+}
+.getImg>img{
+  margin: 0.5rem;
+}
+.getImg{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
